@@ -1,0 +1,111 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Hero Section */
+#hero {
+    background: #005a87;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#hero h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+}
+
+#hero a {
+    display: inline-block;
+    background: #e2e2e2;
+    color: #333;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+#hero a:hover {
+    background: #d4d4d4;
+}
+
+/* Services Section */
+#services {
+    background: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#services div {
+    margin: 20px;
+}
+
+#services h3 {
+    color: #005a87;
+}
+
+/* About Us Section */
+#about {
+    background: #e2e2e2;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Contact Form */
+#contact {
+    background: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#contact form {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px; /* Adjust this value as needed */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow for better focus */
+}
+
+
+#contact input[type='text'],
+#contact input[type='email'],
+#contact input[type='tel'],
+#contact textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    background: #005a87;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+#contact button:hover {
+    opacity: 0.9;
+}
